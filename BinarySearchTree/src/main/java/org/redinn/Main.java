@@ -10,8 +10,7 @@ public class Main {
         // Di seguito il processo di inserimento degli elementi passo-passo.
 
         Scanner input = new Scanner(System.in);
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
+
         System.out.println(ColorText.GREEN + "Benvenuto nel fantastico progetto sugli Alberi Binari di Ricerca!!" + ColorText.RESET);
         System.out.print("Creiamo innanzitutto l'albero..");
 
