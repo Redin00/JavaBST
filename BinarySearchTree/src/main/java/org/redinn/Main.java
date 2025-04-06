@@ -35,28 +35,28 @@ public class Main {
         BST.aggiungiNodo(15);
         BST.aggiungiNodo(87);
 
-        // ######### VISTA ANTICIPATA DEL BST #########
+        // ######### VISITA ANTICIPATA DEL BST #########
         System.out.println("\nNumeri correttamente inseriti!");
-        System.out.print("Premi invio per visualizzare la vista anticipata dell'albero appena creato!");
+        System.out.print("Premi invio per visualizzare la visita anticipata dell'albero appena creato!");
         input.nextLine();
         System.out.println();
 
-        System.out.println(ColorText.YELLOW + "Ecco la vista anticipata: " + ColorText.CYAN);
+        System.out.println(ColorText.YELLOW + "Ecco la visita anticipata: " + ColorText.CYAN);
         BST.visitaAnticipata(BST.getPtr());
 
-        // ######### VISTA SIMMETRICA DEL BST #########
-        System.out.print(ColorText.RESET + "\nPremi invio per visualizzare invece la vista simmetrica!");
+        // ######### VISITA SIMMETRICA DEL BST #########
+        System.out.print(ColorText.RESET + "\nPremi invio per visualizzare invece la visita simmetrica!");
         input.nextLine();
         System.out.println();
 
-        System.out.println(ColorText.YELLOW + "Ecco la vista simmetrica: " + ColorText.CYAN);
+        System.out.println(ColorText.YELLOW + "Ecco la visita simmetrica: " + ColorText.CYAN);
         BST.visitaSimmetrica(BST.getPtr());
 
-        // ######### VISTA DIFFERITA DEL BST #########
-        System.out.println(ColorText.RESET + "\nPremi invio per visualizzare infine la vista differita!");
+        // ######### VISITA DIFFERITA DEL BST #########
+        System.out.println(ColorText.RESET + "\nPremi invio per visualizzare infine la visita differita!");
         input.nextLine();
 
-        System.out.println(ColorText.YELLOW + "Ecco la vista differita: " + ColorText.CYAN);
+        System.out.println(ColorText.YELLOW + "Ecco la visita differita: " + ColorText.CYAN);
         BST.visitaDifferita(BST.getPtr());
 
         // ######### RICERCA NODO #########
